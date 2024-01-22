@@ -51,7 +51,7 @@ span {
 .titulo {
   font-family: 'Young Serif', serif;
   color: var(--Nutmeg);
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -73,6 +73,7 @@ span {
 .container h1 {
   margin-top: 1.5rem;
   color: black; 
+  font-size: 2rem;
 }
 
 .container p {
@@ -177,5 +178,46 @@ span {
 .attribution {
   text-align: center;
   margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
+@media (max-width: 400px) {
+
+      .container {
+      max-width: 100vw;
+      border-radius: 0;
+      margin: 0;
+      padding: 0;
+      font-size: 1rem;
+    }
+
+    .container img {
+      border-radius: 0;
+    }
+
+    .titulo {
+      margin: 0rem 2rem 0 2rem;
+    }
+
+    .container p {
+      margin: 1rem 2rem 0 2rem;
+    }
+
+    .ingrediente ul li {
+      margin: 0.5rem 2rem 0 2rem;
+    }
+
+    .instrucao ol li {
+      margin: 0.5rem 2rem 0 2rem;
+    }
+
+    .nutricao {
+      margin: 0rem 2rem 0 2rem;
+    }
+
+    .container-nutricao p{
+      margin: 2.5rem 2rem;
+      text-align: start;
+    }
+  
+}

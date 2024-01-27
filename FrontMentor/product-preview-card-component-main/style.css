@@ -121,7 +121,11 @@ img {
   color: var(--White);
   cursor: pointer;
   border: none;
-  
+  font-weight: 700;
+}
+
+.botao:hover {
+  background: hsl(157, 54%, 14%);
 }
 
 .attribution {
@@ -131,4 +135,53 @@ img {
 
 .attribution a {
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+
+  body {
+    padding-top: 20px;
+    height: auto;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px;
+    height: 100%;
+  }
+
+  img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .produto {
+    padding-top: 15px;
+  }
+
+  .nome-produto {
+    padding-top: 15px;
+  }
+
+  .conteudo {
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+    padding-top: 15px;
+  }
+
+  .botao {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .container-botao {
+    padding-bottom: 20px;
+  }
+
+  .attribution {
+    padding: 20px;
+  }
 }

@@ -33,3 +33,21 @@ body {
   font-size: 18px;
 }
 
+/*  ESTILO DA MAIN */
+
+.container {
+  width: 350px;
+  height: 600px;
+  background: var(--Very-dark-blue-card-BG);
+  display: grid;
+  border-radius: 10px;
+  
+}
+
+/*  IMG  */
+
+.cubo {
+  width: 100%;
+  padding: 24px ;
+  border-radius: 35px;
+}

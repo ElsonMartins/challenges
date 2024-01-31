@@ -143,3 +143,16 @@ span {
   color: var(--Cyan);
   cursor: pointer;
 }
+
+@media (max-width:400px) {
+  
+   .container {
+    width: 330px;
+    height: 580px;
+  }
+
+  .cubo {
+    width: 100%;
+    border-radius: 10px;
+  }
+}

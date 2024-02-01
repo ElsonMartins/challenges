@@ -31,11 +31,10 @@ body {
 }
 
 .container {
-  width: 450px;
-  height: 700px;
+  width: 400px;
+  height: 620px;
   background: var(--Very-pale-blue);
   border-radius: 20px;
-  
 }
 
 .img-cont {
@@ -59,4 +58,75 @@ body {
   color: var(--Desaturated-blue);
   font-weight: 500;
   line-height: 1.5rem;
+  
+}
+
+.container-plano {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.valor-plano {
+  padding-right: 60px;
+  color: var(--Desaturated-blue);
+  font-weight: 500;
+}
+
+.valor-plano h4 {
+  color: var(--Dark-blue);
+  font-weight: 900;
+}
+
+.change {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--Bright-blue);
+}
+
+.change:hover {
+  text-decoration: none;
+  color: hsl(245, 86%, 66%);
+}
+
+.pagamento {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background: var(--Bright-blue);
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  box-shadow:  0 10px 10px rgba(114, 128, 167, 0.5);
+}
+
+.pagamento:hover {
+ background: hsl(245, 86%, 66%);
+}
+
+.cancelar {
+  padding-top: 30px;
+  text-decoration: none;
+  font-weight: 900;
+  color: var(--Desaturated-blue);
+}
+
+.cancelar:hover {
+  color: var(--Dark-blue);
+}
+
+.attribution {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.attribution a:hover {
+  text-decoration: none;
+  color: var(--Dark-blue);
+  font-weight: 900;
 }

@@ -130,3 +130,29 @@ body {
   color: var(--Dark-blue);
   font-weight: 900;
 }
+
+@media (max-width:400px) {
+
+  body {
+    background: url(../images/pattern-background-mobile.svg);
+  }
+
+.container {
+  width: 350px;
+  height: 590px;
+  margin-top: 40px;
+}
+
+.titulo {
+  margin-top: -10px;
+}
+
+.conteudo {
+  font-size: 0.95rem;
+}
+
+.valor-plano {
+  padding-right: 0px;
+}
+
+}

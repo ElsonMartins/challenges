@@ -58,7 +58,6 @@ body {
   color: var(--Desaturated-blue);
   font-weight: 500;
   line-height: 1.5rem;
-  
 }
 
 .container-plano {
@@ -133,14 +132,20 @@ body {
 
 @media (max-width:400px) {
 
-  body {
-    background: url(../images/pattern-background-mobile.svg);
-  }
+.titulo {
+  font-size: 1.4rem;
+}
 
 .container {
-  width: 350px;
-  height: 590px;
-  margin-top: 40px;
+  width: 330px;
+  height: 570px;
+  margin-top: 20px;
+}
+
+.container-conteudo {
+  display: grid;
+  margin: 35px 30px;
+  text-align: center;
 }
 
 .titulo {
@@ -152,7 +157,11 @@ body {
 }
 
 .valor-plano {
-  padding-right: 0px;
+  padding-right: 40px;
+}
+
+.cancelar {
+  font-size: 0.9rem;
 }
 
 }

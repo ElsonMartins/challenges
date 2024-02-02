@@ -25,6 +25,7 @@ body {
   display: grid;
   place-content: center;
   background: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: var(--Pale-blue);
   font-size: 1rem;

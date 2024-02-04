@@ -133,21 +133,24 @@ body {
   body{
     text-align: center;
   background: var(--Very-dark-blue-main-background);
+  padding-top: 180px;
   height: 100vh;
+  margin-top: 180px;
   }
-
+  
   .container {
     width: 330px;
     height: 780px;
     color: var(--Dark-desaturated-blue-card-background);
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-direction: column-reverse;
+    
   }
   
   .img {
     border-radius: 10px 10px 0 0;
-   
+    order: -1;    
   }
 
   .container-img::after {
@@ -163,18 +166,24 @@ body {
   }
 
   .container-conteudo {
-    margin: 0;
-    width: 300px
-    
+    margin: 0 auto;
+    width: 280px;  
+    padding-bottom: 530px;
   }
 
   .titulo {
     font-size: 1.7rem;
+    padding-top: 40px ;
+  }
+
+  .conteudo {
+    font-size: 1rem;
   }
 
   .valores {
     display: grid;
     gap: 20px;
+    margin-top: 50px;
   }
 
 }

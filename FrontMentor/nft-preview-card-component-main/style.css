@@ -52,6 +52,42 @@ body {
 
 /*  IMG  */
 
+.cubo-container {
+  border-radius: inherit; 
+  position: relative;
+}
+
+.cubo-container::after {
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+  width: 100%;
+  height: 98.5%;
+  left: 0;
+  background-color: hsl(178, 100%, 50%);
+  pointer-events: none; 
+  opacity: 0; 
+  transition: 250ms;
+}
+
+.cubo-container:hover::after {
+  opacity: .5;
+}
+
+.olho {
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  pointer-events: none;
+  opacity: 0; 
+  transition: 250ms;
+}
+
+.cubo-container:hover > .olho {
+  opacity: 1;
+}
+
 .cubo {
   width: 100%;
   border-radius: 10px;

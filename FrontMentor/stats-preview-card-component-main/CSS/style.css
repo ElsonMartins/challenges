@@ -28,7 +28,7 @@ body {
   font-size: 0.938rem;
   display: grid;
   background: var(--Very-dark-blue-main-background);
-  max-width: 1440px;
+  width: 1440px;
   height: 100vh;
   place-content: center;
   

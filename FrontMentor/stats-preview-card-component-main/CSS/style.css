@@ -135,7 +135,7 @@ body {
   background: var(--Very-dark-blue-main-background);
   padding-top: 180px;
   height: 100vh;
-  margin-top: 180px;
+  margin-top: 40px;
   }
   
   .container {
@@ -184,6 +184,10 @@ body {
     display: grid;
     gap: 20px;
     margin-top: 50px;
+  }
+
+  .footer {
+    padding-bottom: 20px;
   }
 
 }

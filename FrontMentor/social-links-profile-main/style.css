@@ -81,7 +81,11 @@ body {
 }
 
 .attribution a {
-  color: blue;
+  color: var(--Green);
+}
+
+.attribution a:hover {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 400px) {

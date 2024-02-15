@@ -1,9 +1,9 @@
 :root {
---Bright-orange: hsl(31, 77%, 52%);
---Dark-cyan: hsl(184, 100%, 22%);
---Very-dark-cyan: hsl(179, 100%, 13%);
---Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
---Very-light-gray-background-buttons: hsl(0, 0%, 95%);
+  --cor-01: hsl(31, 77%, 52%);
+  --cor-02: hsl(184, 100%, 22%);
+  --cor-03: hsl(179, 100%, 13%);
+  --cor-pg: hsla(0, 0%, 100%, 0.75);
+  --cor-bk: hsl(0, 0%, 95%);
 }
 
 /*  CSS Fontes  */
@@ -11,19 +11,133 @@
 .font-1 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  font-size: 0.938rem;
+  color: var(--cor-pg);
+  line-height: 1.5rem;
 }
 
 .font-2 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--cor-bk);
 }
 
-/*  CSS Page  */
+/*  global  */
 
-body {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
+/*    Background   */
 
+.sedans {
+  background: var(--cor-01);
+}
+
+.suv {
+  background: var(--cor-02);
+}
+
+.luxury {
+  background: var(--cor-03);
+}
+
+/*  Espaçamento  */
+
+.pb-1 {
+  padding-bottom: 40px;
+}
+
+.pb-2 {
+  padding-bottom: 85px;
+}
+
+/*   CSS PAGE  */
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 95%);
+}
+.container {
+  display: flex;
+  height: 500px;
+  width: 920px;
+}
+
+.sedans {
+  border-radius: 10px 0 0 10px;
+  padding: 45px;
+}
+
+.suv {
+  padding: 45px;
+}
+
+.luxury {
+  border-radius: 0 10px 10px 0;
+  padding: 45px;
+}
+
+.botao-1 {
+  color: var(--cor-01);
+  background: var(--cor-bk);
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+}
+
+.botao-1:hover {
+  background: var(--cor-01);
+  color: var(--cor-bk);
+  border: solid 3px;
+}
+
+.botao-2 {
+  color: var(--cor-02);
+  background: var(--cor-bk);
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+}
+
+.botao-2:hover {
+  background: var(--cor-02);
+  color: var(--cor-bk);
+  border: solid 3px;
+}
+
+.botao-3 {
+  color: var(--cor-03);
+  background: var(--cor-bk);
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+}
+
+.botao-3:hover {
+  background: var(--cor-03);
+  color: var(--cor-bk);
+  border: solid 3px;
+}
+
+.footer {
+  padding-top: 20px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+
+.footer a {
+  color: var(--cor-02);
+}
+
+.footer a:hover {
+  font-size: 1.2rem;
+  color: var(--cor-03);
+}

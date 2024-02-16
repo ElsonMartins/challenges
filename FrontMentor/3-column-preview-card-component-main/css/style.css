@@ -61,8 +61,9 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
   height: 100vh;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   background: hsl(0, 0%, 95%);
@@ -140,4 +141,33 @@ body {
 .footer a:hover {
   font-size: 1.2rem;
   color: var(--cor-03);
+}
+
+@media (max-width:400px) {
+
+  body {
+    height: 100%;
+    margin-top: 40px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    height: 1325px;
+    height: 0 auto;
+  }
+
+  .sedans {
+    border-radius: 10px 10px 0 0;
+  }
+
+  
+  .luxury {
+    border-radius: 0 0 10px  10px ;
+  }
+
+  .footer {
+    margin-top: 150px;
+  }
 }

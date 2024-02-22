@@ -1,0 +1,35 @@
+:root {
+
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+}
+
+.font-1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.font-2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+}
+
+.font-3 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+}
+
+.font-4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: var(--Dark-gray);
+  letter-spacing: 0.3rem;
+}

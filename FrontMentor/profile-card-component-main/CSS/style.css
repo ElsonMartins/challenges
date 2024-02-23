@@ -39,16 +39,16 @@
   box-sizing: border-box;
 }
 
-body {
-  background: url(../images/bg-pattern-bottom.svg);
-  background-color: var(--Dark-cyan);
-}
 
 body {
   display: grid;
   max-width: 1440px;
   height: 100vh;
   place-content: center;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-color: var(--Dark-cyan);
 }
 
 .container {

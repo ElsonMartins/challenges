@@ -30,7 +30,7 @@
   font-size: 0.625rem;
   font-weight: 400;
   color: var(--Dark-gray);
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
 * {
@@ -43,3 +43,70 @@ body {
   background: url(../images/bg-pattern-bottom.svg);
   background-color: var(--Dark-cyan);
 }
+
+body {
+  display: grid;
+  max-width: 1440px;
+  height: 100vh;
+  place-content: center;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  width: 350px;
+  height: 375px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.container-img {
+  height: 150px;
+  position: relative;
+  top: -26px;
+}
+
+.container-img img {
+  border-radius: 10px 10px 0 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  position: relative;
+  top: -80px;
+  left: 125px;
+  border: solid 3px white;
+}
+
+.nome {
+  position: relative;
+  text-align: center;
+  top: -55px;
+}
+
+.pais {
+  position: relative;
+  text-align: center;
+  top: -45px;
+}
+
+.container-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 25px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.footer a:hover {
+  color: white;
+  font-size: 1.2rem;
+}
+

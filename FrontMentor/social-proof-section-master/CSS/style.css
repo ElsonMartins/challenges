@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "League Spartan", sans-serif;
+}
+
+:root {
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+.font-1 {
+  font-weight: 700;
+  font-size: 3.375rem;
+}
+
+.font-2 {
+  font-size: 1.094rem;
+  font-weight: 400;
+}
+
+.font-3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}

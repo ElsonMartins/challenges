@@ -27,3 +27,23 @@
   font-size: 1.125rem;
   font-weight: 500;
 }
+
+.container {
+  display: grid;
+  height: 100vh;
+  max-width: 1440px;
+  place-content: center;
+}
+
+.container-avaliacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.usuarios {
+  padding: 20px 100px;
+}
+
+.avaliacao {
+  padding: 20px 100px;
+}

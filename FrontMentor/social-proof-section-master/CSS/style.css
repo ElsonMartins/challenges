@@ -28,6 +28,11 @@
   font-weight: 500;
 }
 
+.font-4 {
+  font-size: 1.094rem;
+  font-weight: 700;
+}
+
 .container {
   display: grid;
   height: 100vh;
@@ -45,5 +50,44 @@
 }
 
 .avaliacao {
-  padding: 20px 100px;
+  padding: 20px 80px;
+}
+
+.user-titulo {
+  color: var(--Very-Dark-Magenta);
+}
+
+.user-texto {
+  color: var(--Dark-Grayish-Magenta);
+  padding-top: 30px;
+  line-height: 1.3;
+}
+
+.avaliacao {
+  line-height: 4;
+  color: var(--Very-Dark-Magenta);
+}
+
+.posicao-2 {
+  padding-left: 50px;
+}
+
+
+.posicao-3 {
+  padding-left: 100px;
+}
+
+.espaco {
+  padding-right: 30PX;
+}
+
+.posicao-1 > img {
+  margin-right: 5px;
+}
+
+.posicao-2 > img {
+  margin-right: 5px;
+}
+.posicao-3 > img {
+  margin-right: 5px;
 }

@@ -204,5 +204,10 @@ body {
 
   .footer {
     padding-bottom: 20px;
+    color: var(--Very-Dark-Magenta);
+  }
+
+  .footer a {
+    color: var(--Soft-Pink);
   }
 }

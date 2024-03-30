@@ -260,6 +260,12 @@ img {
   text-align: center;
 }
 
+.preco-item a:hover {
+  background: #2c70ff;
+  color: #f7f7f7;
+  border: #222222 4px solid;
+}
+
 @media (max-width: 800px) {
   .preco {
     padding-left: 10px;

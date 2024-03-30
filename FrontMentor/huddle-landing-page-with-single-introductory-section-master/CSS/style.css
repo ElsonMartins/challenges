@@ -82,5 +82,23 @@ body {
   flex: 1 1 340px;
 }
 
+/* Botão */
+
+.botao {
+  width: 200px;
+  height: 55px;
+  border: none;
+  color: var(--Violet);
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  margin-bottom: 110px;
+}
+
+.botao:hover {
+  background: var(--Soft-Magenta);
+  color: white;
+  cursor: pointer;
+}
 
 

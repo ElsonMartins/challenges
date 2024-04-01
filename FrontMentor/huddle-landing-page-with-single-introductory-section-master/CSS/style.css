@@ -140,6 +140,24 @@ body {
   border-radius: 13px;
 }
 
+/* footer */
+
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.footer a {
+  color: var(--Soft-Magenta);
+}
+
+.footer a:hover {
+  color: white;
+  font-size: 1.5rem;
+}
 
 
 

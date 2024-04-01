@@ -17,6 +17,8 @@ img {
 body {
   background-image: url(../images/bg-desktop.svg);
   background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: 100% 100%;
   background-color: var(--Violet);
   max-width: 1440px;
   height: auto;
@@ -29,7 +31,7 @@ body {
   
   margin: 0 auto;
   padding-top: 65px;
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .logo {
@@ -100,5 +102,44 @@ body {
   color: white;
   cursor: pointer;
 }
+
+/* icones */
+
+.container-icons {
+  display: flex;
+  max-width: 1200px;
+  justify-content: end;
+}
+
+.icons {
+  display: flex;
+  max-width: 45px;
+  gap: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background: var(--Soft-Magenta);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.twitter:hover {
+  background: var(--Soft-Magenta);
+  width: 50px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.instagram:hover {
+  background: var(--Soft-Magenta);
+  width: 50px;
+  height: 45px;
+  border-radius: 13px;
+}
+
+
 
 

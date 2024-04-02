@@ -15,36 +15,36 @@ img {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-image: url(../images/bg-desktop.svg);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
   background-color: var(--Violet);
   max-width: 1440px;
-  height: auto;
+  height: 100vh;
   margin: 0 auto;
 }
 
 /* LOGO-WD */
 
 .logo-wd {
-  
   margin: 0 auto;
   padding-top: 65px;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .logo {
   max-width: 210px;
 }
 
-
 /* container */
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  flex: 2 1 900px;
+  flex: 2 1 1100px;
 }
 
 /* container-img */
@@ -57,12 +57,12 @@ body {
 /* container-conteudo */
 
 .container-conteudo {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 550px;
   margin: 0 auto;
   padding: 120px 35px 0px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 160px;
+  flex: 1 1 360px;
 }
 
 /* Titulo */
@@ -159,5 +159,52 @@ body {
   font-size: 1.5rem;
 }
 
+@media (max-width: 400px) {
+  body {
+    transform: rotate(45dec);
+  }
 
+  .logo {
+    max-width: 150px;
+  }
 
+  .layout {
+    margin-bottom: -30px;
+  }
+
+  .container {
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+  }
+
+  .texto {
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 30px;
+    font-size: 1.1rem;
+  }
+
+  .botao {
+    margin-left: 90px;
+    margin-top: 30px;
+    height: 45px;
+    font-size: 1rem;
+    margin-bottom: 60px;
+  }
+
+  .container-icons {
+    max-width: 320px;
+    justify-content: center;
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+
+  .icons {
+    max-width: 30px;
+  }
+
+}

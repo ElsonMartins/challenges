@@ -161,6 +161,7 @@ body {
 }
 
 @media (max-width: 400px) {
+
   body {
     transform: rotate(45dec);
   }
@@ -171,9 +172,6 @@ body {
 
   .layout {
     margin-bottom: -30px;
-  }
-
-  .container {
   }
 
   .titulo {
@@ -207,5 +205,4 @@ body {
   .icons {
     max-width: 30px;
   }
-
 }

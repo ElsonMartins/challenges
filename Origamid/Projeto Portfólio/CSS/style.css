@@ -1,4 +1,2 @@
-/* 
-
-font-family: "Fira Sans", sans-serif;
-font-weig: 400 - 700 */
+@import './global.css';
+@import './header.css';

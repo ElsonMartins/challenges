@@ -3,9 +3,31 @@
   padding: 0px;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  
+}
+
+
+:root {
+  --roxo: hsl(263, 55%, 52%);
+  --cinza: hsl(217, 19%, 35%);
+  --azul-escuro: hsl(219, 29%, 14%);
+  --branco: hsl(0, 0%, 100%);
+
+  --cinza-claro-bg: hsl(0, 0%, 81%);
+  --cinza-claro-azul-sd: hsl(210, 46%, 95%);
 }
 
 body {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  margin: 20px;
+  background: var(--cinza-claro-bg);
   font-size: 13px;
 }
+
+.container {
+  display: grid;
+}
+

@@ -4,9 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Barlow Semi Condensed", sans-serif;
-  
 }
-
 
 :root {
   --roxo: hsl(263, 55%, 52%);
@@ -22,7 +20,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   height: 100vh;
-  margin: 20px;
+  padding: 20px;
   background: var(--cinza-claro-bg);
   font-size: 13px;
 }
@@ -43,12 +41,15 @@ article img {
   width: 32px;
 }
 
-article a, h1, h2 {
+article a,
+h1,
+h2 {
   font-weight: 600;
   color: var(--cinza-claro-azul-tx);
 }
 
-article h1, h2 {
+article h1,
+h2 {
   margin-bottom: 20px;
 }
 
@@ -97,7 +98,7 @@ article h1, h2 {
   background: var(--branco);
   padding: 35px;
   border-radius: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .text-1 {
@@ -106,4 +107,48 @@ article h1, h2 {
 
 .border {
   border: 2px solid hsl(263, 93%, 72%);
+}
+
+.footer {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (min-width: 770px) {
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 90px;
+  }
+
+  .roxo-bg {
+    margin-top: 0;
+    background-position: top right 100px;
+  }
+
+  .grid-c {
+    grid-column: span 2;
+  }
+
+  .branco-bg-g {
+    margin-bottom: 0;
+    grid-column-start: 4;
+    grid-row: 1 / 3;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .footer a:hover {
+    color: var(--roxo);
+  }
 }

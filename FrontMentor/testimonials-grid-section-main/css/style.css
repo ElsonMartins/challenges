@@ -15,7 +15,7 @@
   --branco: hsl(0, 0%, 100%);
 
   --cinza-claro-bg: hsl(0, 0%, 81%);
-  --cinza-claro-azul-sd: hsl(210, 46%, 95%);
+  --cinza-claro-azul-tx: hsl(210, 46%, 95%);
 }
 
 body {
@@ -27,6 +27,39 @@ body {
   font-size: 13px;
 }
 
+.flex-avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+article {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 1);
+}
+
+article img {
+  border-radius: 50%;
+  width: 32px;
+}
+
+article a, h1, h2 {
+  font-weight: 600;
+  color: var(--cinza-claro-azul-tx);
+}
+
+article h1, h2 {
+  margin-bottom: 20px;
+}
+
+.color-1 {
+  color: var(--cinza-claro-bg);
+}
+
+.color-2 {
+  color: var(--cinza);
+}
+
 .container {
   display: grid;
   gap: 20px;
@@ -35,31 +68,42 @@ body {
 .roxo-bg {
   background: var(--roxo);
   padding: 35px;
-  border-radius: 5px;
-  margin-top: 70px;
+  border-radius: 10px;
+  margin-top: 40px;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 20px;
 }
 
 .cinza-bg {
   background: var(--cinza);
   padding: 35px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .branco-bg {
   background: var(--branco);
   padding: 35px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .azul-escuro-bg {
-  background: var(--cinza);
+  background: var(--azul-escuro);
   padding: 35px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .branco-bg-g {
   background: var(--branco);
   padding: 35px;
-  border-radius: 5px;
-  margin-bottom: 70px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.text-1 {
+  font-size: 11px;
+}
+
+.border {
+  border: 2px solid hsl(263, 93%, 72%);
 }

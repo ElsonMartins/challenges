@@ -116,6 +116,10 @@ h2 {
   line-height: 1.5;
 }
 
+.footer a {
+  color: var(--roxo);
+}
+
 @media (min-width: 770px) {
   body {
     height: 100vh;
@@ -123,7 +127,7 @@ h2 {
 
   .container {
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 90px;
+    margin-top: 40px;
   }
 
   .roxo-bg {
@@ -149,6 +153,6 @@ h2 {
   }
 
   .footer a:hover {
-    color: var(--roxo);
+    color: hsl(263, 93%, 72%);
   }
 }

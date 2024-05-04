@@ -5,7 +5,7 @@
 @import "./global/header.css";
 
 /* UTILIDADES */
-@import "./utilidade/componentes.css";
+@import "./utilidades/componentes.css";
 
 /* HOME */
 @import "./home/introducao.css";

@@ -6,7 +6,7 @@ Aqui estão algumas ideias para você começar, sinta-se à vontade para se desa
 
 Vou sempre deixar a referência dos locais onde pode ser buscado o projeto, ou no caso eu vou deixar as pastas com os arquivos necessário para quem quiser poder fazer também.
 
-## Ferramentas e Tecnologias
+
 
 
 ## Hello everyone 👋
@@ -16,6 +16,8 @@ Vou sempre deixar a referência dos locais onde pode ser buscado o projeto, ou n
 Here are some ideas to get you started, feel free to challenge yourself too if you don't know.
 
 I will always leave references to the places where the project can be found, or in this case I will leave the folders with the necessary files for anyone who wants to do it too.
+
+
 
 ## Tools and Technologies
 

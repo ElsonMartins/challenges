@@ -18,11 +18,12 @@
 
 /* BICICLETAS */
 @import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/bicicletas.css";
 
 
 /* SEGUROS */
 @import "./seguros/seguros.css";
 
 
-/* termos */
+/* TERMOS */
 @import "./termos/termos.css";

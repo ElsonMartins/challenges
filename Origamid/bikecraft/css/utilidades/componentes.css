@@ -45,7 +45,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url(../../img/icones/seta.svg);
+  background: url("../../img/icones/seta.svg");
   transition: transform 0.2s;
 }
 
@@ -86,6 +86,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--cor-11);
+}
+
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {
